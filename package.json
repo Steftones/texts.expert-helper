@@ -1,0 +1,23 @@
+{
+  "name": "texts.expert-helper",
+  "version": "1.0.0",
+  "description": "A tool for copywriters using the site texts.expert",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steftones/texts.expert-helper.git"
+  },
+  "author": "Steftones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steftones/texts.expert-helper/issues"
+  },
+  "homepage": "https://github.com/Steftones/texts.expert-helper#readme",
+  "dependencies": {
+    "googleapis": "^78.0.0",
+    "puppeteer": "^10.0.0"
+  }
+}
