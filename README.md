@@ -13,6 +13,7 @@ This tool scans to see if you have any new tasks and then generates starting tem
 * Clone this repository onto your computer either by going to Code > Clone OR Code > Download ZIP.
 * Make sure you have Node installed on your computer. You can download it at [https://nodejs.org/en/](https://nodejs.org/en/).
 * Get your Google Drive API information (see below) and input it.
+* Customise your starting templates (see below).
 * Navigate to the texts.expert-helper folder in your terminal and run `npm install`.
 
 After installation you can navigate to the texts.expert-helper folder in your terminal and run `npm run app` to use the tool.
