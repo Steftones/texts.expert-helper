@@ -1,7 +1,7 @@
 # texts.expert-helper
 An automation tool for copywriters receiving work via the site [texts.expert](https://texts.expert)
 
-This tool scans to see if you have any new tasks and then generates starting templates for each task, uploading them to your Google Drive folder. Generate all the templates you need to get started on your tasks in seconds.
+This tool scans to see if you have any new tasks and then generates starting templates for each task, uploading them to your Google Drive folder. Why waste your time creating files and copying over information? Generate all the templates you need to get started on your tasks in seconds.
 
 ## Template features
 * A customisable "plan", based on words and phrases that you want to find in copywriting briefs.
