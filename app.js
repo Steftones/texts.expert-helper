@@ -147,15 +147,15 @@ const makePage = async (i) => {
 
     // doesn't work if there's only one line of keywords!
     for (let j = 0; j < finalOutput[i].keywords.length; j++){
-      for (let q = 0; q < finalOutput[i].keywords[j].length; q++){
-        output = output + finalOutput[i].keywords[j][q] + tab
+      for (let k = 0; k < finalOutput[i].keywords[j].length; k++){
+        output = output + finalOutput[i].keywords[j][k] + tab
       }
       output += "<br>"
     }
     output += "<br>"
     for (let j = 0; j < finalOutput[i].urls.length; j++){
-      for (let q = 0; q < finalOutput[i].urls[j].length; q++){
-        output = output + finalOutput[i].urls[j][q] + tab
+      for (let k = 0; k < finalOutput[i].urls[j].length; k++){
+        output = output + finalOutput[i].urls[j][k] + tab
       }
       output += "<br>"
     }

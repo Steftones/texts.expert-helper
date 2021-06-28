@@ -12,8 +12,8 @@ const config = {
   folderId: '',
 
   // Add text.expert login information between ''
-  username: 'your username',
-  password: 'your password',
+  username: '',
+  password: '',
 
   // Here you can add whatever words or phrases you want to search for in the brief between '' (case insensitive search).
   // Stick to the same format below, including a comma at the end of the curly braces, e.g:
