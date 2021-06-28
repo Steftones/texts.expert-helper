@@ -55,9 +55,9 @@ const scrapeSite = async () => {
   await page.type('#loginform-password', config.password)
   await page.click('[name=login-button]')
   await page.waitForTimeout(1000)
-  // needs to have active links in it or doesn't work
-  // here i've put the YS page for now
-  await page.goto('https://texts.expert/writer/list?WriterTaskSearch%5Bstatus%5D=4&WriterTaskSearch%5Bcategory%5D=YS')
+
+  // include the URL where new tasks are shown
+  await page.goto('https://texts.expert/writer/list?WriterTaskSearch%5Bstatus%5D=1')
   await page.waitForTimeout(1000)
 
   const data = await page.evaluate(() => {
