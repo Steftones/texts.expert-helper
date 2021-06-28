@@ -4,9 +4,9 @@ An automation tool for copywriters receiving work via the site [texts.expert](ht
 This tool scans to see if you have any new tasks and then generates starting templates for each task, uploading them to your Google Drive folder. Why waste your time creating files and copying over information? Generate all the templates you need to get started on your tasks in seconds.
 
 ## Template features
-* A customisable "plan", based on words and phrases that you want to find in copywriting briefs.
 * All keywords and URL's that need to be included in a copywriting task.
 * Titles and subtitles formatted in H1 and H2 styles.
+* You can provide words and phrases to search for in copywriting briefs. The tool will let you know if they occur in the template.
 * An optional "keyword tool"
 
 ## Installation instructions
@@ -23,7 +23,7 @@ To use this tool you will need to get free access to the Google Drive API.
 
 Once you have access, you will have a 'Client ID', 'Client Secret' and 'Refresh token'. You can then navigate to wherever you copied this project on your computer, open up `config.js` in a text editor, input the information and save the file.
 
-Follow the steps below to get all the information you need - it should take about 10 minutes. If you get stuck, Google the subheadings.
+Follow the steps below to get all the information you need - it should take about 10 minutes. If the process changes for whatever reason, google the subheadings.
 
 ### Get Google Drive API OAuth2 credentials
 * Go to [console.cloud.google.com](console.cloud.google.com)
