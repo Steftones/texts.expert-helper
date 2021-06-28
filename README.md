@@ -12,7 +12,7 @@ This tool scans to see if you have any new tasks and then generates starting tem
 
 ## Installation instructions
 * Clone this repository onto your computer either by going to Code > Clone OR Code > Download ZIP.
-* Make sure you have Node installed on your computer. You can download it at [https://nodejs.org/en/](https://nodejs.org/en/).
+* Make sure you have Node installed on your computer. You can download it at https://nodejs.org/en/.
 * Get your Google Drive API information (see below).
 * Customise your starting templates (see below).
 * Navigate to wherever you copied this project on your computer, open up `config.js` in a text editor, input your texts.expert username, password and save the file.
@@ -31,7 +31,7 @@ Once you have access, you will have a 'Client ID', 'Client Secret' and 'Refresh 
 Follow the steps below to get all the information you need - it should take about 10 minutes. If the process changes for whatever reason, google the subheadings.
 
 ### Get Google Drive API OAuth2 credentials
-* Go to [console.cloud.google.com](console.cloud.google.com)
+* Go to https://console.cloud.google.com/
 * Click on the navbar to create a new project
 * Click ‘create a new project’
 * Add a project name and click create
@@ -64,7 +64,7 @@ Follow the steps below to get all the information you need - it should take abou
 * Go to console.cloud.google.com 
 * Search ‘OAuth consent screen’ in the navbar
 * Go to ‘Test Users’, add in your Google Drive email address and click ‘Save’
-* Go to https://developers.google.com/oauthplayground’
+* Go to https://developers.google.com/oauthplayground
 * Scroll down to ‘Drive API’ and check where it says https://www.googleapis.com/auth/drive
 * At the top right of the page, click ‘Settings’ and when a window pops up check the box ‘Use your own OAuth credentials
 * Provide the Client ID and Client secret
