@@ -15,6 +15,7 @@ This tool scans to see if you have any new tasks and then generates starting tem
 * Make sure you have Node installed on your computer. You can download it at [https://nodejs.org/en/](https://nodejs.org/en/).
 * Get your Google Drive API information (see below).
 * Customise your starting templates (see below).
+* Navigate to wherever you copied this project on your computer, open up `config.js` in a text editor, input your texts.expert username, password and save the file.
 * Navigate to the texts.expert-helper folder in your terminal and run `npm install`.
 
 ## Using the tool
