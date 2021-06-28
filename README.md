@@ -16,7 +16,7 @@ This tool scans to see if you have any new tasks and then generates starting tem
 * Customise your starting templates (see below).
 * Navigate to the texts.expert-helper folder in your terminal and run `npm install`.
 
-<b>N.B. when you go to your dashboard on texts.expert, always run this tool before you click 'New', otherwise the tool won't be able to find new tasks!</b>
+<b>N.B. when you notice you've been assigned new tasks on your texts.expert dashboard, always run this tool before you click 'New', otherwise the tool won't be able to find new tasks!</b>
 
 After installation you can navigate to the texts.expert-helper folder in your terminal and run `npm run app` to use the tool.
 
