@@ -53,7 +53,7 @@ Follow the steps below to get all the information you need - it should take abou
 * Click ‘Create Credentials’ near the top and select ‘OAuth client ID’
 * Choose ‘web application’ under application type
 * Provide any app name
-* Under ‘Authorized redirect URIs’, click ‘Add URI’ and provide ‘https://developers.google.com/oauthplayground’ - n.b. Do not put a forward slash at the end.
+* Under ‘Authorized redirect URIs’, click ‘Add URI’ and provide ‘https://developers.google.com/oauthplayground’ - N.B. Do not put a forward slash at the end.
 * <b>Now you have your Client ID and Client Secret. Open up `config.js` in your text editor, paste the information in the fields and save the file.</b>
 * Back in the browser, click ok
 
