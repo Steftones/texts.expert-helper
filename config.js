@@ -5,6 +5,10 @@ const config = {
   CLIENT_SECRET: '',
   REDIRECT_URI: 'https://developers.google.com/oauthplayground',
   REFRESH_TOKEN: '',
+  
+  // To get the folder ID, go to the Google Drive folder where you'd like the templates to be uploaded.
+  // Copy everything after /folders in the URL - this will be your ID to paste in below within ''.
+  // e.g. https://drive.google.com/drive/folders/sfd67fd7sdf77s7d77 - the ID is 'sfd67fd7sdf77s7d77'
   folderId: '',
 
   // Add text.expert login information between ''
@@ -13,8 +17,8 @@ const config = {
 
   // Here you can add whatever words or phrases you want to search for in the brief between '' (case insensitive search).
   // Stick to the same format below, including a comma at the end of the curly braces, e.g:
-  // { searchFor: 'enter the word or phrase', printText: 'enter whatever text you want to be outputted in your plan' },
-  // If a word/phrase is found, it will print custom text in your plan.
+  // { searchFor: 'some word or phrase', printText: 'the text that will be outputted in your plan' },
+  // If a word/phrase is found, it will print custom text in your template's plan.
   searchTerms: [
     { searchFor: 'pexels', printText: 'needs images from Pexels' },
     { searchFor: 'proposal', printText: 'include a proposal' },
