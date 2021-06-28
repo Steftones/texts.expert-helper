@@ -4,8 +4,9 @@ An automation tool for copywriters receiving work via the site [texts.expert](ht
 This tool scans to see if you have any new tasks and then generates starting templates for each task, uploading them to your Google Drive folder. Why waste your time creating files and copying over information? Generate all the templates you need to get started on your tasks in seconds.
 
 ## Template features
-* All keywords and URL's that need to be included in a copywriting task.
-* Titles and subtitles formatted in H1 and H2 styles.
+* All the keywords and URL's that need to be included in a copywriting task
+* All of a task's resources
+* Titles and subtitles formatted in H1 and H2 styles
 * You can provide words and phrases to search for in copywriting briefs. The tool will let you know if they occur in the template.
 * An optional "keyword tool"
 
