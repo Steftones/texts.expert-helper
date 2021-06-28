@@ -7,7 +7,7 @@ This tool scans to see if you have any new tasks and then generates starting tem
 * All the keywords and URL's that need to be included in a copywriting task
 * All of a task's resources
 * Titles and subtitles formatted in H1 and H2 styles
-* You can provide words and phrases to search for in copywriting briefs. The tool will let you know if they occur in the template.
+* You can provide words and phrases to search for in copywriting briefs. If they are found in a brief, a note will be made in your template.
 * An optional "keyword tool"
 
 ## Installation instructions
