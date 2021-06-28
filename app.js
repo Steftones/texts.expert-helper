@@ -83,10 +83,10 @@ const scrapeSite = async () => {
       const description = document.querySelector('.c-desc-box').children
       const keyWords = ['For', 'Subject', 'Word count']
       const resources = ['www', 'http', '.com']
-      for (let z = 0; z < description.length; z++){
-        if (keyWords.some(e => description[z].innerText.includes(e))) output['articleInfo'].push(description[z].innerText)
-        if (resources.some(e => description[z].innerText.includes(e))) output['resources'].push(description[z].innerText)
-      }
+      description.forEach((element) => {
+        if (keyWords.some(e => element.innerText.includes(e))) output['articleInfo'].push(element.innerText)
+        if (resources.some(e => element.innerText.includes(e))) output['resources'].push(element.innerText)
+      })
 
       const mainData = document.body.innerText
 
@@ -94,12 +94,12 @@ const scrapeSite = async () => {
         output.keyword = mainData.match(/phrase:(.*)./)[1].split('').slice(2,-1).join('')
       }
 
-      for (let k = 0; k < config.searchTerms.length; k++){
-        // need checks to see if the searches don't come up in other parts e.g. keywords, title etc
-        if (mainData.toLowerCase().includes(config.searchTerms[k].searchFor.toLowerCase())){
-          output.searches.push(config.searchTerms[k]['printText'])
+      // need checks to see if the searches don't come up in other parts e.g. keywords, title etc
+      config.searchTerms.forEach(element => {
+        if (mainData.toLowerCase().includes(element.searchFor.toLowerCase())){
+          output.searches.push(element['printText'])
         }
-      }
+      })
 
       let keywordTable = document.querySelectorAll('table:nth-child(3) > tbody > tr > td')
       let keywordTableOutput = []
