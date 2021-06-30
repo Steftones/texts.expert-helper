@@ -83,7 +83,8 @@ const scrapeSite = async () => {
       const description = document.querySelector('.c-desc-box').children
       const keyWords = ['For', 'Subject', 'Word count']
       const resources = ['www', 'http', '.com']
-      description.forEach((element) => {
+
+      Array.from(description).forEach((element) => {
         if (keyWords.some(e => element.innerText.includes(e))) output['articleInfo'].push(element.innerText)
         if (resources.some(e => element.innerText.includes(e))) output['resources'].push(element.innerText)
       })
@@ -105,7 +106,7 @@ const scrapeSite = async () => {
       let keywordTableOutput = []
       let tableRow = []
 
-      for (let l = 1; l < keywordTable.length; l++){
+      for (let l = 1; l <= keywordTable.length; l++){
         if (l % 4 === 0){
           keywordTableOutput.push(tableRow)
           tableRow = []
@@ -119,7 +120,7 @@ const scrapeSite = async () => {
       keywordTable = document.querySelectorAll('table:nth-child(5) > tbody > tr > td')
       keywordTableOutput = []
       tableRow = []
-      for (let m = 1; m < keywordTable.length; m++){
+      for (let m = 1; m <= keywordTable.length; m++){
         if (m % 4 === 0){
           keywordTableOutput.push(tableRow)
           tableRow = []
