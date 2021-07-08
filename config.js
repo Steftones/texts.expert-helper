@@ -1,14 +1,16 @@
 const config = {
 
-  // Add information from your Google API between ''
+  // * - the instructions with an asterisk by them are for linking up your Google Drive folder. Skip these instructions if you don't want to link your folder.
+
+  // * Add information from your Google API between ''
   CLIENT_ID: '',
   CLIENT_SECRET: '',
   REDIRECT_URI: 'https://developers.google.com/oauthplayground',
   REFRESH_TOKEN: '',
   
-  // To get the folder ID, go to the Google Drive folder where you'd like the templates to be uploaded.
-  // Copy everything after /folders in the URL - this will be your ID to paste in below within ''.
-  // e.g. https://drive.google.com/drive/folders/sfd67fd7sdf77s7d77 - the ID is 'sfd67fd7sdf77s7d77'
+  // * To get the folder ID, go to the Google Drive folder where you'd like the templates to be uploaded.
+  // * Copy everything after /folders in the URL - this will be your ID to paste in below within ''.
+  // * e.g. https://drive.google.com/drive/folders/sfd67fd7sdf77s7d77 - the ID is 'sfd67fd7sdf77s7d77'
   folderId: '',
 
   // Add text.expert login information between ''
